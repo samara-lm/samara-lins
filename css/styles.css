@@ -1,0 +1,114 @@
+/* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --background-padrao:#eff0ff;
+    --botao-padrao:#7159c1;
+    --botao-hover-padrao:#715;
+    --margin-padrao: 2%;
+    --padding-padrao:30px;
+    --radius-padrao:8px;
+    --font-family-padrao:'Poppins', sans-serif;
+    --title-padrao:#715;
+    --body-padrao:#380828;
+}
+
+body {
+    font-family:var(--font-family-padrao);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-padrao);
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: var(--margin-padrao);
+    background-color: var(--background-padrao);
+    padding: 30px;
+    max-width: 25%;
+    max-height: 80%;
+    text-align: center;
+    border: 2px solid #7159c1;
+    border-radius: 8px; 
+    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+}
+.container .main {
+    padding: 15px;
+}
+h1 {
+    color: #715;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 75%;
+    max-width: 75%;
+    height: 20%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 1px solid #7159c1;
+    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+}
+.apresentacao .apresentacao-title{
+    color: var(--title-padrao);
+}
+.apresentacao .apresentacao-body{
+    color:var(--body-padrao);
+}
+.experiencia .experiencia-title{
+    color:var(--title-padrao);
+}
+.experiencia .experiencia-body{
+    color:var(--body-padrao)
+}
+.proposta .proposta-title{
+    color:var(--title-padrao);
+}
+.proposta .proposta-body{
+    color:var(--body-padrao);
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: var(--margin-padrao);
+    flex-direction: column;
+}
+
+.btn {
+    background-color: var(--botao-padrao);
+    margin-top: 2%;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: var(--botao-hover-padrao);
+}
+
+footer {
+    margin-top: var(--margin-padrao);
+    font-size: 0.8em;
+    color: #aaaaaa;
+}
