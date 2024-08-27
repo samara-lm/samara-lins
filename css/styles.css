@@ -112,3 +112,24 @@ footer {
     font-size: 0.8em;
     color: #aaaaaa;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 97%;
+        padding: var(--padding-padrao);
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .profile-photo {
+        width: 100%;
+    }
+    
+    .btn {
+        padding: 15px 25px;
+    }
+}
